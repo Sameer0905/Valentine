@@ -1,0 +1,50 @@
+body {
+    background-image: url('Aisha.jpeg'); /* Replace with your image URL */
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    margin-top: 15%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+button {
+    background-color: #ff4d79;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #ff1a66;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
